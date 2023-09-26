@@ -1,4 +1,5 @@
-# ballassignment
+# multipleball
+
 
 This HTML document creates an interactive webpage called "RANDOM BALLS" that generates and animates random colored balls within a container. Here's a brief description of the key components:
 
