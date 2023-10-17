@@ -1,23 +1,18 @@
 # multipleball
+Description:
+
+Elevate the animation by enabling user input for modifying the ball's movement, incorporating elements like keyboard and mouse controls, as well as introducing obstacles or targets to enhance interactivity.
+
+How to run the code:
+
+Step1:Save the HTML file with a .html extension.
+
+Step2:Click the "Go Live" button to open a new browser window displaying the Bouncing_Ball animation.
+
+Future improvement:
+
+consider integrating user interaction like click-and-drag functionality, customizable ball properties, and physics-based interactions, such as ball collisions, for a more engaging and interactive animation.
 
 
-This HTML document creates an interactive webpage called "RANDOM BALLS" that generates and animates random colored balls within a container. Here's a brief description of the key components:
 
-<!DOCTYPE html>: This declaration specifies the document type and version of HTML used.
 
-<html lang="en">: The opening tag for the HTML document with the specified language attribute set to English.
-
-<div id="container">: This <div> element with the id "container" serves as a visual area where random balls will be generated and animated. It is styled with a width of 1000px, a black border, a height of 600px, and a white background color.
-<script>: Inside the <body>, there's a <script> block that contains JavaScript code responsible for creating and animating the random balls.
-
-palet: An array containing different colors that can be randomly assigned to the balls.
-
-balls, x_pos, y_pos, x_vel, and y_vel: Arrays to store information about each generated ball, including the ball element itself, its position (x and y coordinates), and its velocity (x and y components).
-
-gravity: Sets the gravity effect on the balls' movement.
-
-ballCount(n): A function that generates a specified number (n) of random balls
-moveBall(): A function responsible for animating the balls' movement. It updates the position of each ball based on its velocity, handles ball collisions with container boundaries, and updates the ball's style accordingly.
-
-ballCount(10): This line initiates the creation of 10 random balls when the page loads.
-The animation continues indefinitely, with balls bouncing off the container boundaries due to the defined gravity effect. The balls' positions are updated at regular intervals using setTimeout, creating the appearance of animation.
